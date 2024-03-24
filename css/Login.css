@@ -26,7 +26,7 @@ body{
 {
     width: 40%;
     height: 500px;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     margin: 40px 35px;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -40,6 +40,11 @@ body{
 .heading p
 {
     font-weight: 300;
+}
+
+.heading a
+{
+    color: blue;
 }
 
 label
@@ -67,6 +72,7 @@ input[type=passward]
 {
     float: right;
     padding-right: 33px;
+    color: blue;
 }
 
 input[type=submit]
@@ -103,6 +109,17 @@ input[type=submit]
 {
     text-decoration: none;
     padding-left: 7px;
+    font-size: 1.3em;
+}
+
+.box1:hover
+{
+    background-color: #b5b5b5;
+}
+
+a:hover
+{
+    color: #000;
 }
 
 .box1 img
@@ -127,7 +144,18 @@ input[type=submit]
 .box2 a
 {
     text-decoration: none;
-    padding-left: 7px;
+    /* padding-left: 1px; */
+    font-size: 1.3em;
+}
+
+.box2:hover
+{
+    background-color: #b5b5b5;
+}
+
+a:hover
+{
+    color: #000;
 }
 
 .box2 img
